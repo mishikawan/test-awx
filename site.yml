@@ -1,0 +1,4 @@
+- name: write message file
+  hosts: servers
+  roles:
+   - writemsg

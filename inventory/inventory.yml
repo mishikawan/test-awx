@@ -1,0 +1,10 @@
+all:
+  children:
+    servers:
+      hosts:
+        testsv01:
+          ansible_host: 192.168.11.1
+          ansible_user: root
+      vars:
+        messages: "Hello!"
+        tmpfile: "/tmp/message.txt"
