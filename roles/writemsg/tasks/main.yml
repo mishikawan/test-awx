@@ -1,7 +1,6 @@
 - name: write file {{ tmpfile }}
   lineinfile:
     path: "{{ tmpfile }}"
-    regexp: ^innodb_file_per_table
     line: "{{ messages }}"
     create: yes
 
