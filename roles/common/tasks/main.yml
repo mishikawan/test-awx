@@ -1,0 +1,8 @@
+- name: disable selinux
+  selinux:
+   state: disabled
+
+- name: set timezone
+  timezone:
+    name: "{{ timezone }}"
+
