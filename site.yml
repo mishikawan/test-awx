@@ -1,4 +1,5 @@
 - name: write message file
   hosts: servers
   roles:
+   - common
    - writemsg
